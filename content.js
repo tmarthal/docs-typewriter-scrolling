@@ -21,7 +21,7 @@ const enableTypewriterScrolling = () => {
       const offset = cursorRect.top - editorRect.top;
       // Calculate the desired scroll position to center the cursor
       const scrollTop = editor.scrollTop;
-      const desiredScrollTop = scrollTop + offset - editorRect.height / 2;
+      const desiredScrollTop = scrollTop + offset - editorRect.height / 6;
 
       // Check if the cursor position has changed
       if (cursorRect.top !== lastCursorTop) {
